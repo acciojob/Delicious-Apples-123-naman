@@ -1,1 +1,130 @@
 /* your code here */
+body{
+    width: 100vw;
+    height: 100vh;
+	background-color:#10e37fff;	
+    position: absolute;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.product{
+	display:flex;
+	justify-content:space-around;
+	background-color:white;
+	width:46vw;
+	height:84vh;
+    border-radius: 10px;
+}
+.photo-container{
+    width: 100%;
+    height: 90%;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 2px 0.1px #000;
+    border-radius: 6px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+}
+.photo-main{
+    background-color: #b6ea41ff;
+    height: 76%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+.photo{
+    position: absolute;
+    right: 16%;
+}
+.fa-share-alt{
+    box-sizing: border-box;
+	margin:10px 150px 10px 10px ;
+    color: white;
+    
+}
+.fa-heart-o{
+    box-sizing: border-box;
+    margin:10px 10px 10px 150px;
+    color: white;
+}
+.title{
+    color: #5d5d5dff;
+    padding-top: 20%;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+    row-gap: -2%;
+}
+span{
+    color: #5d5d5dff;
+    font-size: 12px;
+}
+.variant{
+    font-size: 14px;
+}
+.price{
+    font-size: 24px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.price>span{
+    font-size: 56px;
+    color: red;
+}
+.photo-album{
+    padding-top: 15px;
+    padding-right: 10px;
+    background-color: #fff;
+    height: 22%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.photo-album>ul,.variant>ul{
+    list-style-type:none;
+    display: flex;
+}
+.photo-album>ul>li{
+    border: 1px solid lightgray;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.description>h1{
+    padding-top: 10px;
+    
+    font-size: 14px;
+    color: #5d5d5dff;
+}
+h3{
+    color: #5d5d5dff;
+}
+button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 14px 24px;
+    background-color: #fe3f40ff;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 1px 0px 5px 0.1px #6c6c6c;
+    margin-right: 5%;
+}
+.product__info{
+    padding-right: 50px;
+}
+#align{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
